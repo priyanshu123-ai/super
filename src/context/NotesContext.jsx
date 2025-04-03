@@ -3,7 +3,7 @@ import axios from "axios";
 
 const NotesContext = createContext();
 
-export const useNotes = () => {
+export const useN = () => {
   const context = useContext(NotesContext);
   if (!context) {
     throw new Error("useNotes must be used within a NotesProvider");

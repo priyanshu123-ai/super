@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useNotes } from "../context/NotesContext";
+import { useN } from "../context/NotesContext";
 import axios from "axios";
 
 function Notes() {
-  const { notes, setNotes } = useNotes();
+  const { notes, setNotes } = useN();
   const [newNote, setNewNote] = useState("");
 
   const addNote = async (e) => {

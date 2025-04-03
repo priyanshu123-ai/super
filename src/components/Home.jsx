@@ -1,9 +1,9 @@
 import React from "react";
-import { useNotes } from "../context/NotesContext";
+import { useN } from "../context/NotesContext";
 import image1 from "../assets/image1.gif";
 
 function Home() {
-  const { notes } = useNotes(); 
+  const { notes } = useN(); 
 
   return (
     <div className="">
