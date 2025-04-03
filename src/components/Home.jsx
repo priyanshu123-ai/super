@@ -19,9 +19,16 @@ function Home() {
           >
             <h3 className="text-lg font-bold mb-2">{item.title}</h3>
             <p className="text-gray-600">{item.body}</p>
+           <div className="flex gap-10">
+           <button className="bg-blue-600 px-4 py-2 rounded">View</button>
+           <button className="bg-red-500 px-4 py-2 rounded">Delete</button>
+           </div>
           </div>
         ))}
+
+      
       </div>
+
     </div>
   );
 }
